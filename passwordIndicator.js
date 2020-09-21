@@ -6,7 +6,7 @@ var minSpecial = 1;
 
 document.addEventListener('DOMContentLoaded', () => {
     let indicatorElement = document.getElementById('indicatorPlacement');
-    indicatorElement.innerHTML = '<div class="passwordStrength"><div class="strengthContainer"><div class="strengthIndicator">Strength</div><div id="indicator1" class="strengthIndicator indicatorBlock"></div><div id="indicator2" class="strengthIndicator indicatorBlock"></div><div id="indicator3" class="strengthIndicator indicatorBlock"></div><div id="indicator4" class="strengthIndicator indicatorBlock"></div><div id="strength" class="strengthIndicator">weak</div></div></div>';
+    indicatorElement.innerHTML = '<div class="passwordStrength"><div class="strengthContainer"><div id="indicator1" class="strengthIndicator indicatorBlock"></div><div id="indicator2" class="strengthIndicator indicatorBlock"></div><div id="indicator3" class="strengthIndicator indicatorBlock"></div><div id="indicator4" class="strengthIndicator indicatorBlock"></div><div id="strength" class="strengthIndicator">weak</div></div></div>';
 
     let tipsElement = document.getElementById('tipsPlacement');
     
